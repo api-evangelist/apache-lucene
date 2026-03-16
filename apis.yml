@@ -1,0 +1,35 @@
+aid: apache-lucene
+name: Apache Lucene
+description: >-
+  Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It provides indexing and search technology, as well as spellchecking, hit highlighting, and advanced analysis/tokenization capabilities.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Search
+  - Full-Text Search
+  - Indexing
+  - Java
+  - Text Analysis
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-lucene/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-lucene:apache-lucene
+    name: Apache Lucene
+    description: >-
+      Lucene provides a comprehensive Java API for full-text indexing, searching, faceting, hit highlighting, spatial search, and text analysis with support for custom analyzers, query parsers, and scoring.
+    humanURL: https://lucene.apache.org/core/
+    tags:
+      - Java
+      - Search
+      - Indexing
+    properties:
+      - type: Documentation
+        url: https://lucene.apache.org/core/
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
