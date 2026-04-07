@@ -7,10 +7,10 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Search
   - Full-Text Search
   - Indexing
   - Java
+  - Search
   - Text Analysis
 created: '2026-03-16'
 modified: '2026-03-16'
@@ -24,9 +24,9 @@ apis:
       Lucene provides a comprehensive Java API for full-text indexing, searching, faceting, hit highlighting, spatial search, and text analysis with support for custom analyzers, query parsers, and scoring.
     humanURL: https://lucene.apache.org/core/
     tags:
+      - Indexing
       - Java
       - Search
-      - Indexing
     properties:
       - type: Documentation
         url: https://lucene.apache.org/core/
