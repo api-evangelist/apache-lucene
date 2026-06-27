@@ -37,7 +37,7 @@ apis:
         url: https://lucene.apache.org/core/10_4_0/index.html
       - type: GettingStarted
         url: https://lucene.apache.org/core/quickstart.html
-      - type: SDK
+      - type: SDKs
         url: https://central.sonatype.com/artifact/org.apache.lucene/lucene-core
         title: Maven Central (Java)
       - type: GitHubRepository
