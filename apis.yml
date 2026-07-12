@@ -43,6 +43,10 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/lucene
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-lucene-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-lucene-domain-security.yml
   - type: Portal
     url: https://lucene.apache.org/
   - type: GitHubOrganization
