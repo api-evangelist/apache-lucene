@@ -2,20 +2,20 @@
   "repo": "apache-lucene",
   "feeds": [
     {
-      "source": "https://lucene.apache.org/feeds/core/news.atom.xml",
-      "feed_url": "https://lucene.apache.org/feeds/core/news.atom.xml",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
-    },
-    {
       "source": "https://github.com/apache/lucene/issues",
       "feed_url": "https://github.com/apache/lucene/issues",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://lucene.apache.org/feeds/core/news.atom.xml",
+      "feed_url": "https://lucene.apache.org/feeds/core/news.atom.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
   "post_count": 51,
-  "fetched": "2026-08-30T22:33:40Z"
+  "fetched": "2026-09-06T19:17:18Z"
 }
