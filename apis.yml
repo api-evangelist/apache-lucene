@@ -68,6 +68,12 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/lucene
 common:
+  - type: Plans
+    url: plans/apache-lucene-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/apache-lucene-rate-limits.yml
+  - type: FinOps
+    url: finops/apache-lucene-finops.yml
   - type: Website
     url: https://www.apache.org/
   - type: Releases
