@@ -1,4 +1,4 @@
-# Apache Lucene (apache-lucene)
+# Apache Lucene
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,89 +66,103 @@
 
 Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It provides indexing and search technology, as well as spellchecking, hit highlighting, faceting, vector similarity search, and advanced analysis and tokenization capabilities. Lucene is the foundation for many popular search applications including Apache Solr.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/apache-lucene/refs/heads/main/apis.yml)
+**Areas:** Full-Text Search · Indexing · Java · Search · Text Analysis · Vector Search
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Lucene on APIs.io
 
-## Tags:
+Everything profiled for Apache Lucene is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-lucene/](https://apis.io/providers/apache-lucene/)** — or go straight to one of the APIs or properties below.
 
- - Full-Text Search, Indexing, Java, Search, Text Analysis, Vector Search
+### APIs (1)
 
-## Timestamps
+- [Apache Lucene](https://apis.io/apis/apache-lucene/apache-lucene/) — Lucene provides a comprehensive Java API for full-text indexing, searching, faceting, hit highlighting, spatial search, vector nearest-neighbor search, and…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Lucene
-Lucene provides a comprehensive Java API for full-text indexing, searching, faceting, hit highlighting, spatial search, vector nearest-neighbor search, and text analysis with support for custom analyzers, query parsers, and pluggable ranking models including BM25 and Vector Space Model.
+#### Security (2)
 
-**Human URL:** [https://lucene.apache.org/core/](https://lucene.apache.org/core/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Lucene Domain Security](https://apis.io/security/apache-lucene/apache-lucene-domain-security/)
+- [Apache Lucene Vulnerability Disclosure](https://apis.io/security/apache-lucene/apache-lucene-vulnerability-disclosure/)
 
- - Indexing, Java, Search, Vector Search, Text Analysis
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://lucene.apache.org/core/)
-- [Documentation](https://lucene.apache.org/core/10_4_0/index.html)
-- [GettingStarted](https://lucene.apache.org/core/quickstart.html)
-- [Maven Central (Java)](https://central.sonatype.com/artifact/org.apache.lucene/lucene-core)
-- [GitHubRepository](https://github.com/apache/lucene)
+- [Apache Lucene Plans Pricing](https://apis.io/plans/apache-lucene/apache-lucene-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
 
-- [Portal](https://lucene.apache.org/)
-- [GitHubOrganization](https://github.com/apache)
-- [GitHubRepository](https://github.com/apache/lucene)
-- [GitHubRepository](https://github.com/apache/lucenenet)
-- [IssueTracker](https://github.com/apache/lucene/issues)
+Published request limits.
+
+- [Apache Lucene Rate Limits](https://apis.io/rate-limits/apache-lucene/apache-lucene-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Apache Lucene Finops](https://apis.io/finops/apache-lucene/apache-lucene-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apache.org/)
 - [Blog](https://lucene.apache.org/news.html)
-- [MailingList](https://lists.apache.org/list.html?dev@lucene.apache.org)
-- [Slack](https://the-asf.slack.com/messages/CE70MDPMF)
-- [TermsOfService](https://www.apache.org/licenses/LICENSE-2.0)
+- [Terms of service](https://www.apache.org/licenses/LICENSE-2.0)
+- [GitHub](https://github.com/apache)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Full-Text Indexing | High-performance full-text indexing with over 800GB/hour throughput on modern hardware with minimal RAM requirements. |
-| Vector Nearest-Neighbor Search | Native support for approximate and exact k-nearest-neighbor vector similarity search alongside traditional keyword search. |
-| Advanced Query Types | Supports phrase queries, wildcard, proximity, range, fuzzy, and fielded queries with pluggable query parsers. |
-| Faceting and Grouping | Built-in faceted search and result grouping capabilities for navigation and aggregation. |
-| Hit Highlighting | Highlights search keywords in result snippets using the Highlighter and UnifiedHighlighter modules. |
-| Spell Checking and Suggestions | Auto-suggest and spell-checking support via the Suggest module with multiple suggester implementations. |
-| Pluggable Analyzers | Extensive analyzer ecosystem supporting dozens of languages including ICU, Kuromoji (Japanese), Nori (Korean), OpenNLP, and more. |
-| Pluggable Ranking Models | Supports Vector Space Model, Okapi BM25, and custom pluggable similarity implementations. |
-| Spatial Search | Geospatial search capabilities via the Spatial and Spatial3D modules. |
-| Replication Support | Index replication support via the Replicator module for leader-follower architectures. |
+**Kin Score 26.3** — thin · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Enterprise Search | Power full-text search across enterprise documents, emails, databases, and file systems. |
-| E-Commerce Product Search | Implement fast, relevant product search with facets, autocomplete, and spell correction. |
-| Log and Event Search | Index and search structured and unstructured log data for observability and security analytics. |
-| Semantic Search | Combine keyword search with vector embeddings for hybrid semantic and lexical retrieval. |
-| Knowledge Base Search | Build searchable knowledge bases and documentation portals with rich query capabilities. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Apache Solr | Apache Solr is built on top of Lucene and adds distributed search, REST API, and enterprise features. |
-| Elasticsearch/OpenSearch | Elasticsearch and OpenSearch use Lucene as their underlying search engine. |
-| Apache Hadoop | Lucene integrates with Hadoop for large-scale distributed indexing pipelines. |
-| Apache Tika | Apache Tika extracts text from thousands of file formats for indexing into Lucene. |
-| Apache OpenNLP | OpenNLP provides NLP analysis capabilities integrated through Lucene analyzers. |
-| Apache Nutch | Apache Nutch is a web crawler that stores and indexes content via Lucene. |
-| Lucene.NET | Official .NET port of Apache Lucene, maintained in the apache/lucenenet repository. |
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-lucene/](https://apis.io/providers/apache-lucene/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Lucene: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-lucene/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
